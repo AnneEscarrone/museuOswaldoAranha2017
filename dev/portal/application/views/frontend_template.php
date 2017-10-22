@@ -104,7 +104,7 @@
 
             <div class="container" style="padding-top: 15px; padding-bottom: 15px;">
                 <div class="content al-center">
-                    <p class="font-georgia fontsize1">MOA - Museu Oswaldo Aranha - 2015</p>
+                    <p class="font-georgia fontsize1">MOA - Museu Oswaldo Aranha - 2017</p>
                 </div>
             </div>
             <script src="<?php echo site_url('assets/plugins/jquery/jquery.min.js'); ?>"></script>
@@ -117,7 +117,7 @@
                     $("#slide img:eq(0)").addClass("ativo").show();
                 });
                 var cont = 0; //recebe o numero de slides
-                var texto = $("#slide img:eq("+cont+")").attr("alt");
+                var texto = $("#slide img:eq("+cont+")").attr("name");
                 $("#slide").prepend("<p>" + texto + "</p>");
                 setInterval(slide, 3000);
 
@@ -133,7 +133,7 @@
                     }else{
                         cont++;
                     }
-                    texto = $("#slide img:eq("+cont+")").attr("alt");
+                    texto = $("#slide img:eq("+cont+")").attr("name");
                     $("#slide p").hide().html(texto).delay(500).fadeIn();
                 }
             </script>

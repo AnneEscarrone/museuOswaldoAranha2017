@@ -5,13 +5,13 @@
     <div class="content">
 
         <header class="content" style="background: #993333; height: 5px">
-            <h2 class="fontsize25 font-vinho font-oswald-light al-center ds-inblock news_style">ACERVO DO MUSEU</h2>;
+            <h2 id="conteudoPrincipal" tabindex="11" class="fontsize25 font-vinho font-oswald-light al-center ds-inblock news_style">ACERVO DO MUSEU</h2>;
         </header>
         <br><br><br>
 
         <?php
         if(empty($itens)){
-            echo '<h2>Não há itens a exibir =/<h2>';
+            echo '<h2 tabindex="12">Não há itens a exibir =/<h2>';
         }else{
             foreach ($itens as $item) { 
                 echo '<div>';
@@ -26,9 +26,9 @@
                 }
                 //echo '</a>';
                 echo '<div class="grid-12">';
-                echo '<h2 class="ds-inblock">'.$item['titulo'].'</h2> <br>';
-                echo '<p class="ds-inblock">'.date('d/m/Y', strtotime($item['data'])).'</p>';
-                echo '<p>'.$item['resumo'].'</p>';
+                echo '<h2 tabindex="12" class="ds-inblock">'.$item['titulo'].'</h2> <br>';
+                echo '<p tabindex="13" class="ds-inblock">'.date('d/m/Y', strtotime($item['data'])).'</p>';
+                echo '<p tabindex="14">'.$item['resumo'].'</p>';
                 echo '</div>';
                 echo '<div style="margin-top: 80px;" class="fl-left grid-9 border-grey">';
                 echo '<div class="font-oswald-light font-bold fontsize1b" style="color: #993333">&nbsp;</div>';

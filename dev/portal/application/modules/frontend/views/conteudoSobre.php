@@ -2,14 +2,14 @@
     <div class="content">
         <div>
             <header class="content" style="background: #993333; height: 5px; text-align: center;">
-                <h2 class="fontsize30 font-vinho font-oswald-light al-center ds-inblock news_style">SOBRE</h2>;
+                <h2 id="conteudoPrincipal" class="fontsize30 font-vinho font-oswald-light al-center ds-inblock news_style" tabindex="11">SOBRE</h2>;
             </header>
             <br><br><br> 
-            <img src="<?php echo site_url('assets/images/sobre/oswaldoAranhaSobre.JPG') ?>" alt="Pintura de oswaldo aranha" style="width: 20em; height: 25em">
+            <img src="<?php echo site_url('assets/images/sobre/oswaldoAranhaSobre.JPG') ?>" " alt=" " style="width: 20em; height: 25em">
 
             <blockquote class="font-arial" >
 
-                <p class="fontsize1b" style="padding-left: 15em; color: #666666" >
+                <p tabindex="12" class="fontsize1b" style="padding-left: 15em; color: #666666" >
                     Oswaldo Euclides de Souza Aranha nasceu a 15 de fevereiro de 1894 em Alegrete – RS. Filho de Euclydes Egydio de Souza Aranha e de Luiza Jacques de Freitas Valle Aranha. 
                     <br>
                     Oswaldo Aranha foi Advogado, presidiu a Associação dos Criadores de Gado, foi um dos lideres do PRR (chimangos) na Revolução de 1923, chefe regional de policia, Intendente de Alegrete entre 1925 e 1927, eleito Deputado Estadual e não assume e é indicado para a Câmara Federal em 1928. Foi um dos articuladores e lideres da Revolução de 1930.
@@ -23,10 +23,10 @@
                 </p>
             </blockquote>
 
-            <img src="<?php echo site_url('assets/images/sobre/museusobre.JPG') ?>" alt="Pintura do museu oswaldo aranha" style="width: 20em; height: 25em; padding-top:2em">
+            <img src="<?php echo site_url('assets/images/sobre/museusobre.JPG') ?>" alt="" style="width: 20em; height: 25em; padding-top:2em">
             <blockquote class="font-arial" >
 
-                <p class="fontsize1b" style="padding-left: 15em; padding-top: 1em;  color: #666666">
+                <p tabindex="13" class="fontsize1b" style="padding-left: 15em; padding-top: 1em;  color: #666666">
 
                     O Museu Oswaldo Aranha (MOA), criado pelo Decreto Municipal nº 24/1984, existe a partir de uma parceria entre a Prefeitura Municipal de Alegrete, o IPHAN e a Família de Oswaldo Aranha. 
                     <br>

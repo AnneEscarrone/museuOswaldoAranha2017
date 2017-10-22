@@ -14,10 +14,11 @@
     <body>     
         <div class="container bg-white-grey menu-height2">
             <div class="content">
-                <ul class="font-oswald-light font-bold fontsize090 fl-right text-uppercase">
-                    <li class="list-info"><a  alt="endereço"><img src="<?php echo site_url('assets/images/home/endereco-icon.png') ?>" class="fl-left img-micro" alt="Icone Encereço" title="Endereço do Museu">Praça Getúlio Vargas nº 585 - Centro - Alegrete RS</a></li>
-                    <li class="list-info"><a  alt="telefone"><img src="<?php echo site_url('assets/images/home/telefone-icon.png') ?>" class="fl-left img-micro" alt="Icone Telefone" title="Telefone para Contato">(55) 3961-1132</a></li>
-                   <li class="list-info"><a target="_blank" href="#" alt="facebook"><img src="<?php echo site_url('assets/images/home/facebook-icon.png') ?>" tabindex="1" alt="Nossa Página no Facebook" title="Facebook"></a></li>
+                <ul class="font-oswald-light font-bold fontsize090 fl-right text-uppercase">                                      
+                    <li class="list-info"><a href="#conteudoPrincipal"  tabindex="1" style="color: #675b5b" class="endereço" >ir para o conteúdo principal</a></li>                    
+                    <li class="list-info"><a tabindex="2" class="endereço"><img src="<?php echo site_url('assets/images/home/endereco-icon.png') ?>" class="fl-left img-micro"  alt="" title="Endereço do Museu">Praça Getúlio Vargas nº 585 - Centro - Alegrete RS</a></li>
+                    <li class="list-info"><a tabindex="3" class="telefone"><img src="<?php echo site_url('assets/images/home/telefone-icon.png') ?>" class="fl-left img-micro" alt="" title="Telefone para Contato">(55) 3961-1132</a></li>
+                    <li class="list-info"><a  target="_blank" href="#" class="facebook"><img src="<?php echo site_url('assets/images/home/facebook-icon.png') ?>"  alt="Página do Facebook" title="Facebook"></a></li>
                 </ul>
             </div>
         </div>
@@ -29,14 +30,14 @@
                     <img src="<?php echo site_url('assets/images/home/logo-museu.png') ?>" alt="Museu Oswaldo Aranha" class="ds-block fl-left grid-2" style="margin-top: -5px;">                        
                 </h1>
                 <ul class="font-oswald-light font-light fontsize1b fl-right">
-                    <li class="menu-item"><a href="<?php echo site_url() ?>" alt="Pagina Inicial" title="Página Inícial" tabindex="2">INÍCIO</a></li>
-                    <li class="menu-item"><a href="<?php echo site_url('sobre') ?>" alt="Sobre o Museu" title="Sobre o Museu"tabindex="3">SOBRE</a></li>
-                    <li class="menu-item"><a href="<?php echo site_url('conteudo/eventos') ?>" alt="Eventos do Museu" title="Eventos do Museu"tabindex="4">EVENTOS</a></li>
-                    <li class="menu-item"><a href="<?php echo site_url('conteudo/noticias') ?>" alt="Notícias do museu" title="Notícias do museu"tabindex="5">NOTÍCIAS</a></li>
-                    <li class="menu-item"><a href="<?php echo site_url('aprenda') ?>" alt="Aprenda" title="Aprenda"tabindex="6">APRENDA</a></li>
-                 <!--   <li class="menu-item"><a href="<?php echo site_url('amigos-do-museu') ?>" alt="Amigos do Museu" title="Amigos do Museu"tabindex="7">AMIGOS DO MUSEU</a></li>-->
-                    <li class="menu-item"><a href="<?php echo site_url('visite') ?>" alt="Visite o Museu" title="Visite o Museu"tabindex="8">VISITE</a></li>
-                    <li class="menu-item"><a href="<?php echo site_url('contato') ?>" alt="Fale conosco" title="Fale Conosco"tabindex="9">CONTATO</a></li>
+                    <li class="menu-item"><a href="<?php echo site_url() ?>" tabindex="5">INÍCIO</a></li>
+                    <li class="menu-item"><a href="<?php echo site_url('sobre') ?>" tabindex="6">SOBRE</a></li>
+                    <li class="menu-item"><a href="<?php echo site_url('conteudo/eventos') ?>" tabindex="7">EVENTOS</a></li>
+                    <li class="menu-item"><a href="<?php echo site_url('conteudo/noticias') ?>" tabindex="8">NOTÍCIAS</a></li>
+                    <li class="menu-item"><a href="<?php echo site_url('aprenda') ?>" tabindex="9">APRENDA</a></li>
+                 <!--   <li class="menu-item"><a href="<?php //echo site_url('amigos-do-museu') ?>" alt="Amigos do Museu" title="Amigos do Museu"tabindex="7">AMIGOS DO MUSEU</a></li>-->
+                    <li class="menu-item"><a href="<?php echo site_url('visite') ?>" tabindex="9">VISITE</a></li>
+                    <li class="menu-item"><a href="<?php echo site_url('contato') ?>" tabindex="10">CONTATO</a></li>
                 </ul>
             </div>
         </header>
@@ -61,17 +62,17 @@
                         <div class="grid-5 al-center" style="height: 180px;">
                             <div class="border-red" style="height: 180px; background: #ffffff;">
 
-                                <a  href="http://porteiras.unipampa.edu.br/alegrete/" tabindex="26" target="_blank"><img class="ds-inline fl-none"  style="margin-top: 20px;" src="<?php echo site_url('/assets/images/home/unipampa.png') ?>"  alt="Logotipo Unipampa"></a>
+                                <a  href="http://porteiras.unipampa.edu.br/alegrete/" target="_blank"><img class="ds-inline fl-none"  style="margin-top: 20px;" src="<?php echo site_url('/assets/images/home/unipampa.png') ?>"  alt="Logotipo Unipampa"></a>
                             </div>
                         </div>
                         <div class="grid-6 al-center" style="height: 180px;">
                             <div class="border-red" style="height: 180px; background: #ffffff;">
-                                <a href="http://www.alegrete.rs.gov.br/site/" tabindex="27"  target="_blank"><img class="ds-inline fl-none"  src="<?php echo site_url('/assets/images/home/prefeitura.png') ?>" alt="Logotipo prefeitura"></a>
+                                <a href="http://www.alegrete.rs.gov.br/site/"   target="_blank"><img class="ds-inline fl-none"  src="<?php echo site_url('/assets/images/home/prefeitura.png') ?>" alt="Logotipo prefeitura"></a>
                             </div>
                         </div>
                         <div class="grid-5 al-center" style="height: 180px;">
                             <div class="border-red" style="height: 180px; background: #ffffff;">
-                                <a href="http://www.ihga.com.br/" tabindex="28"target="_blank"><img class="ds-inline fl-none"  style="margin-top: 29px;" src="<?php echo site_url('/assets/images/home/ihga.jpg') ?>" alt="Logotipo IHGA"></a>
+                                <a href="http://www.ihga.com.br/" target="_blank"><img class="ds-inline fl-none"  style="margin-top: 29px;" src="<?php echo site_url('/assets/images/home/ihga.jpg') ?>" alt="Logotipo IHGA"></a>
                             </div>
                         </div>
                     </div>
@@ -82,22 +83,21 @@
             <footer class="container container-padding-60 bg-black">
                 <div class="content">
                     <ul class="font-oswald-light font-light fontsize1b grid-16 al-center">
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url() ?>"tabindex="29" alt="pagina inicial">INÍCIO</a></li>
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url() ?>">INÍCIO</a></li>
                         <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('sobre') ?>"tabindex="30" alt="sobre">SOBRE</a></li>
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('sobre') ?>">SOBRE</a></li>
                         <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('conteudo/eventos') ?>" tabindex="31"alt="eventos">EVENTOS</a></li>
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('conteudo/eventos') ?>" >EVENTOS</a></li>
                         <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('contato') ?>"tabindex="32" alt="contato">CONTATO</a></li>
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('contato') ?>">CONTATO</a></li>
                         <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('conteudo/noticias') ?>"tabindex="33" alt="noticias">NOTÍCIAS</a></li>
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('conteudo/noticias') ?>">NOTÍCIAS</a></li>
                         <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('aprenda') ?>"tabindex="34" alt="aprenda">APRENDA</a></li>                        
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('aprenda') ?>">APRENDA</a></li>                        
                         <!--<li class="menu-item2 fontsize18"><a href="<?php //echo site_url('amigos-do-museu') ?>" tabindex="35" alt="amigos do museu">AMIGOS DO MUSEU</a></li>-->
                         <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('visite') ?>" tabindex="36" alt="visite">VISITE</a></li>
-                        <li class="menu-separador fontsize1">/</li>
-                        <li class="menu-item2 fontsize18"><a src="#" alt="mapa do site">MAPA DO SITE</a></li>
+                        <li class="menu-item2 fontsize18"><a href="<?php echo site_url('visite') ?>">VISITE</a></li>
+                        <li class="menu-separador fontsize1">/</li>                       
                     </ul>
                 </div>
             </footer>

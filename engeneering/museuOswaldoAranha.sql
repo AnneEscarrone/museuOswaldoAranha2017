@@ -1,3 +1,4 @@
+
 -- phpMyAdmin SQL Dump
 -- version 4.2.2
 -- http://www.phpmyadmin.net
@@ -172,6 +173,7 @@ ADD CONSTRAINT `fk_media_conteudo1` FOREIGN KEY (`idConteudo`) REFERENCES `conte
 INSERT INTO `tipoConteudo` (idTipoConteudo, descricao, slug) VALUES (1, 'Notícias', 'noticias'), (2, 'Eventos', 'eventos'), (3, 'Acervo do Museu', 'acervo-do-museu'), (4, 'Acervo Científico', 'acervo-cientifico');
 INSERT INTO `administrador` (idAdministrador, nome, email, senha, ativo) VALUES (1, 'Admin', 'admin@gmail.com', '6367c48dd193d56ea7b0baad25b19455e529f5ee', 1);
 
+ALTER TABLE media CHANGE destaque destaque TINYINT(1) NOT NULL DEFAULT '0';
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
